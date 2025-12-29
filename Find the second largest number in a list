@@ -1,0 +1,4 @@
+numbers = [10, 20, 4, 45, 99]
+numbers = list(set(numbers))   # remove duplicates
+numbers.sort()
+print("Second largest number is:", numbers[-2])
